@@ -1,0 +1,241 @@
+:root {
+    --default: #fa9205;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu-1{
+    position: relative;
+    width: 100vw;
+    background-color: #b86b00;
+    background-size: cover;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#menu{
+    text-decoration: none;
+    background-color: #b86b00;
+    color: white;
+    justify-content: left;
+    font-size: 12px;
+    cursor: pointer;
+    height: 80px;
+    padding-top: 30px;
+}
+
+#acessibilidade{
+    text-decoration: none;
+    background-color: #b86b00;
+    color: white;
+    justify-content: left;
+    font-size: 12px;
+    cursor: pointer;
+    height: 80px;
+    padding-top: 20px;
+}
+
+#acessibilidade ul{
+    padding: 10px;
+    background-color: black;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    white-space: 20px;
+    float: right;
+}
+
+/*---------------LABSOLO------------------*/
+#container-imagem{
+    position: relative;
+    width: 100vw;
+    background: url(imagens/fundo1.jpg);
+    background-size: cover;
+    padding: 1%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#sub-menu{
+    color: white;
+    
+}
+
+#sub-menu h5{
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#sub-menu p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*------------Bem vindo--------*/
+#bem-vindos{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    background-size: cover;
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+#bem-vindos h5{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fa9205;
+}
+#bem-vindos h4{
+    font-size: 30px;
+    color: #fa9205;
+}
+
+/*-------------informacoes-----------*/
+#informacoes{
+    position: static;
+    width: 100vw;
+    background: url(imagens/informacoess.png);
+    background-size: cover;
+    padding: 1%;
+    padding-right: 15%;
+    padding-left: 15%;
+    border: 20%;
+    background-color: white;
+    color: #ae4724;
+}
+
+#informacoes h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 3%;
+    padding-bottom: 1%;
+}
+
+#grupo-row{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+#grupo-row ul{
+    max-width: 300px;
+    text-align: left;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#grupo-row img{
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+/*-------------amostras-----------*/
+
+#amostras{
+    position: static;
+    width: 100vw;
+    background-color: white;
+    background-size: cover;
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    color: #aa340d;
+}
+
+#borda{
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(189, 189, 189);
+    border: 20%;
+    padding: 4%;
+    display: inline-block;
+}
+
+#grupo-row-amostras h5{
+    max-width: 300px;
+    text-align: left;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    font-size: 30px;
+    color: #aa340d;
+    
+}
+
+#informacoes-amostra{
+    padding:2%;
+}
+
+
+#grupo-row-amostras p{
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#img-controle{
+    position: absolute;
+}
+
+#informacoes-img{
+    padding-top: -50px;
+    padding-bottom: 50px;
+}
+
+#informacoes-img-aviao{
+    padding-top: -0px;
+    padding-bottom: 60px;
+}
+
+
+/*---------------footer---------------*/
+.footer-info{
+    background-color: #eef0f1;
+    color: #aa340d;
+    padding: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;   
+    text-decoration: none;
+    text-align: left;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+    transition: all 300ms ease;
+}
+
+
+.footer-autores{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    padding: 15%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
